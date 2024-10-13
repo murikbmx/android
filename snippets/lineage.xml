@@ -55,7 +55,7 @@
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="murikbmx/android_vendor_lineage" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -197,4 +197,8 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  
+  <!--Pixel 8 device tree and Vendor -->
+  <project name="murikbmx/proprietary_vendor_google_shiba" path="vendor/google/shiba" revision="lineage-21" clone-depth="1" />
+  <project name="murikbmx/android_device_google_shusky" path="device/google/shusky" revision="lineage-21" clone-depth="1" />
 </manifest>
