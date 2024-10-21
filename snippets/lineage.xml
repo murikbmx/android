@@ -201,4 +201,9 @@
   <!--Pixel 8 device tree and Vendor -->
   <project name="murikbmx/proprietary_vendor_google_shiba" path="vendor/google/shiba" revision="lineage-21" clone-depth="1" />
   <project name="murikbmx/android_device_google_shusky" path="device/google/shusky" revision="lineage-21" clone-depth="1" />
+  <project path="device/google/shiba" remote="github" name="LineageOS/android_device_google_shiba" revision="lineage-21" />
+  <project path="device/google/zuma" remote="github" name="LineageOS/android_device_google_zuma" revision="lineage-21" />
+  <!-- <project path="device/google/shusky-kernel" remote="aosp-shusky" name="device/google/shusky-kernel" clone-depth="1" /> -->
+  <project path="device/google/gs101" remote="github" name="LineageOS/android_device_google_gs101" revision="lineage-21" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-21" />
 </manifest>
