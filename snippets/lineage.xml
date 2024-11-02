@@ -20,7 +20,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
+  <project path="external/openssh" name="Tomoms/android_external_openssh" groups="pdk" revision="v" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
