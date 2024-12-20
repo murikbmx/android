@@ -94,7 +94,7 @@
   <project path="external/apache-velocity-engine" name="platform/external/apache-velocity-engine" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" remote="aosp" clone-depth="1" />
-  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/arm-optimized-routines" name="yaap/external_arm-optimized-routines" groups="pdk" revision="fifteen" clone-depth="1" />
   <project path="external/arm-trusted-firmware" name="LineageOS/android_external_arm-trusted-firmware" groups="pdk" clone-depth="1" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" clone-depth="1" />
@@ -318,7 +318,7 @@
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/libjpeg-turbo" name="yaap/external_libjpeg-turbo" groups="pdk" revision="fifteen" clone-depth="1" />
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/liblc3" name="platform/external/liblc3" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" remote="aosp" clone-depth="1" />
@@ -957,7 +957,7 @@
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" remote="aosp" />
-  <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="toolchain/pgo-profiles" name="yaap/toolchain_pgo-profiles" groups="pdk" clone-depth="1" revision="fifteen" />
   <project path="tools/aadevtools" name="platform/tools/aadevtools" groups="pdk" remote="aosp" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="aosp" />
   <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" remote="aosp" />
