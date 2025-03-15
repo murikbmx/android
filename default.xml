@@ -94,7 +94,7 @@
   <project path="external/apache-velocity-engine" name="platform/external/apache-velocity-engine" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" remote="aosp" clone-depth="1" />
-  <project path="external/arm-optimized-routines" name="yaap/external_arm-optimized-routines" groups="pdk" revision="fifteen" clone-depth="1" />
+  <project path="external/arm-optimized-routines" name="RisingOS-Revived/android_external_arm-optimized-routines" groups="pdk" revision="fifteen" clone-depth="1" />
   <project path="external/arm-trusted-firmware" name="LineageOS/android_external_arm-trusted-firmware" groups="pdk" clone-depth="1" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" clone-depth="1" />
@@ -522,7 +522,7 @@
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" clone-depth="1" />
+  <project path="external/skia" name="Tomoms/android_external_skia" groups="pdk,qcom_msm8x26" clone-depth="1" revision="v-qpr1" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp" clone-depth="1" />
