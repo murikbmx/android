@@ -318,7 +318,7 @@
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/libjpeg-turbo" name="yaap/external_libjpeg-turbo" groups="pdk" revision="fifteen" clone-depth="1" />
+  <project path="external/libjpeg-turbo" name="RisingOS-Revived/android_external_libjpeg-turbo" groups="pdk" revision="fifteen" clone-depth="1" />
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/liblc3" name="platform/external/liblc3" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" remote="aosp" clone-depth="1" />
