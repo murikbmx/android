@@ -101,7 +101,7 @@
   <project path="external/android-nn-driver" name="platform/external/android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="aosp" clone-depth="1" />
   <project path="external/android_onboarding" name="platform/external/android_onboarding" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="external/armnn" name="platform/external/armnn" groups="pdk-lassen,pdk-gs-arm" remote="aosp" clone-depth="1" />
-  <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" clone-depth="1" />
+  <project path="external/avb" name="Tomoms/android_external_avb" groups="pdk" revision="v-qpr2" />
   <project path="external/aws-crt-java" name="platform/external/aws-crt-java" groups="pdk,tradefed" remote="aosp" clone-depth="1" />
   <project path="external/aws-eventstream-java" name="platform/external/aws-eventstream-java" groups="pdk,tradefed" remote="aosp" clone-depth="1" />
   <project path="external/aws-sdk-java-v2" name="platform/external/aws-sdk-java-v2" groups="pdk,tradefed" remote="aosp" clone-depth="1" />
@@ -161,7 +161,7 @@
   <project path="external/double-conversion" name="platform/external/double-conversion" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/downloader" name="platform/external/downloader" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" clone-depth="1" />
-  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" clone-depth="1" />
+  <project path="external/dtc" name="Tomoms/android_external_dtc" groups="pdk" revision="v-qpr2" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" clone-depth="1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp" clone-depth="1" />
