@@ -832,7 +832,7 @@
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin,pdk,darwin,sysui-studio" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" revision="62cdcefa89e31af2d72c366e8b5ef8db84caea62" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-cw-fs,pdk-fs,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
