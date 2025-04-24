@@ -354,7 +354,7 @@
   <project path="external/licenseclassifier" name="platform/external/licenseclassifier" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/linux-firmware" name="platform/external/linux-firmware" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" remote="aosp" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" clone-depth="1" revision="8ff63a678516e5e6bae1a1320f245d01e3be943e" />
   <project path="external/llvm-libc" name="platform/external/llvm-libc" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/lottie" name="platform/external/lottie" groups="pdk" remote="aosp" clone-depth="1" />
