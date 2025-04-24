@@ -350,7 +350,7 @@
   <project path="external/libxaac" name="platform/external/libxaac" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libxkbcommon" name="platform/external/libxkbcommon" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" clone-depth="1" />
-  <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" clone-depth="1" />
+  <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" clone-depth="1" revision="969ed2ab0a254660ce8dd3619200ec37c1f63161" />
   <project path="external/licenseclassifier" name="platform/external/licenseclassifier" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/linux-firmware" name="platform/external/linux-firmware" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" remote="aosp" />
