@@ -368,7 +368,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" clone-depth="1" revision="113ad64853a65480c38141e2374a1c65e8a535de" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" clone-depth="1" />
   <project path="external/mobile-data-download" name="platform/external/mobile-data-download" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" remote="aosp" clone-depth="1" />
