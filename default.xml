@@ -230,7 +230,7 @@
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/googleapis" name="platform/external/googleapis" groups="pdk,tradefed" remote="aosp" clone-depth="1" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" clone-depth="1" />
+  <project path="external/gptfdisk" name="Tomoms/android_external_gptfdisk" groups="pdk" clone-depth="1" revision="v-qpr2" />
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" remote="aosp" clone-depth="1" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" remote="aosp" clone-depth="1" />
   <project path="external/gsc-utils" name="platform/external/gsc-utils" groups="pdk" remote="aosp" clone-depth="1" />
