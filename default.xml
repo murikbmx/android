@@ -281,13 +281,13 @@
   <project path="external/junit-params" name="platform/external/junit-params" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/kmod" name="platform/external/kmod" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/kotlinc" name="LineageOS/android_external_kotlinc" groups="pdk" clone-depth="1" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" clone-depth="1" remote="aosp" revision="401d708dc899a2c375cc92b1ecdc90905038bcdf" />
   <project path="external/kotlinpoet" name="platform/external/kotlinpoet" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/kotlinx.atomicfu" name="platform/external/kotlinx.atomicfu" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/kotlinx.coroutines" name="LineageOS/android_external_kotlinx.coroutines" groups="pdk" clone-depth="1" />
+  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" revision="e3dc1aa4a0f9f5b219e9ee552968a02d7c4dfbfd" groups="pdk" clone-depth="1" />
   <project path="external/kotlinx.metadata" name="platform/external/kotlinx.metadata" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/kotlinx.serialization" name="LineageOS/android_external_kotlinx.serialization" groups="pdk" clone-depth="1" />
-  <project path="external/kotlin-compose-compiler" name="platform/external/kotlin-compose-compiler" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/kotlin-compose-compiler" name="platform/external/kotlin-compose-compiler" groups="pdk" remote="aosp" clone-depth="1" revision="7f745dc8cb7909683882009f6792ac041fdb4a8d" />
   <project path="external/ktfmt" name="platform/external/ktfmt" groups="pdk,sysui-studio" remote="aosp" clone-depth="1" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/ksp" name="platform/external/ksp" groups="pdk" remote="aosp" clone-depth="1" />
