@@ -13,6 +13,12 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-15.0.0_r32" />
 
+  <remote  name="murikbmx-gitlab"
+           fetch="https://gitlab.com"
+           sync-c="true"
+           sync-j="24"
+           revision="refs/heads/vic" />
+           
   <default revision="refs/heads/lineage-22.2"
            remote="github"
            sync-c="true"
