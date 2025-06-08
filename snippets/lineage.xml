@@ -219,7 +219,7 @@
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
   <!-- Pixel 8 -->
-  <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-22.2" clone-depth="1" />
+  <project path="vendor/google/shiba" remote="github" name="murikbmx/proprietary_vendor_google_shiba" revision="lineage-22.2" clone-depth="1" />
   <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-22.2" />
   <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-22.2" />
   <project path="vendor/gapps" name="murikbmx/vendor_gapps" clone-depth="1" remote="murikbmx-gitlab" />
