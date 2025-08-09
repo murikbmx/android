@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="murikbmx/android" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
@@ -27,7 +27,7 @@
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="murikbmx/android_lineage-sdk" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
@@ -51,12 +51,12 @@
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
+  <project path="packages/overlays/Lineage" name="murikbmx/android_packages_overlays_Lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="murikbmx/android_vendor_lineage" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -220,11 +220,17 @@
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="main" />
   <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="main" />
-  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="main" />
+  <project path="lineage/mirror" name="murikbmx/mirror" groups="infra" revision="main" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="main" />
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="main" />
 
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  
+  <!-- Pixel 8 -->
+  <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-22.2" clone-depth="1" />
+  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-22.2" />
+  <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-22.2" />
+  <project path="vendor/gapps" name="murikbmx/vendor_gapps" clone-depth="1" remote="murikbmx-gitlab" />
 </manifest>
