@@ -24,7 +24,6 @@
            sync-c="true"
            sync-j="20" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r32" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
