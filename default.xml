@@ -5,6 +5,10 @@
            fetch=".."
            review="review.lineageos.org" />
 
+  <!-- Codeberg remote -->
+  <remote name="codeberg"
+           fetch="https://codeberg.org/" />
+            
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
