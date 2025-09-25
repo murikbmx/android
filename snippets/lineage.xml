@@ -213,7 +213,7 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
   
   <!-- Pixel 7a -->
-  <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_lynx" revision="lineage-22.1" clone-depth="1" />
+  <project path="vendor/google/lynx" remote="github" name="TheMuppets/proprietary_vendor_google_lynx" revision="lineage-22.1" clone-depth="1" />
   <project path="device/google/lynx" remote="github" name="murikbmx/android_device_google_lynx" revision="lineage-22.1" />
   <project path="device/google/gs201" remote="github" name="murikbmx/android_device_google_gs201" revision="lineage-22.1" />
   <project path="packages/apps/ViPER4AndroidFX" remote="github" name="murikbmx/android_packages_apps_ViPER4AndroidFX" revision="v4a" />
