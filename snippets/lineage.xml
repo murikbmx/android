@@ -25,8 +25,8 @@
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <project path="hardware/lineage/interfaces" name="murikbmx/android_hardware_lineage_interfaces" />
+  <project path="lineage-sdk" name="murikbmx/android_lineage-sdk" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
@@ -55,7 +55,7 @@
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="murikbmx/android_vendor_lineage" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -208,4 +208,13 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  
+  <!-- Pixel 8 - 7a -->
+  <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-23.0" clone-depth="1" />
+  <project path="vendor/google/lynx" remote="github" name="TheMuppets/proprietary_vendor_google_lynx" revision="lineage-23.0" clone-depth="1" />
+  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-23.0" />
+  <project path="device/google/lynx" remote="github" name="murikbmx/android_device_google_lynx" revision="lineage-23.0" />
+  <project path="device/google/gs201" remote="github" name="murikbmx/android_device_google_gs201" revision="lineage-23.0" />
+  <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-23.0" />
+  <project path="vendor/gapps" name="murikbmx/vendor_gapps" clone-depth="1" remote="murikbmx-gitlab" />
 </manifest>
