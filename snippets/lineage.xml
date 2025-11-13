@@ -223,4 +223,5 @@
   <project path="kernel/xiaomi/nabu" remote="github" name="murikbmx/android_kernel_xiaomi_nabu" revision="lineage-23.0" />
   <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.0" />
   <project path="packages/apps/FaceUnlock" name="murikbmx/android_packages_apps_FaceUnlock" remote="murikbmx-gitlab" />
+  <project path="packages/apps/ViPER4AndroidFX" remote="github" name="murikbmx/android_packages_apps_ViPER4AndroidFX" revision="v4a" />
 </manifest>
