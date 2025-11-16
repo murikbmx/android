@@ -13,6 +13,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-16.0.0_r1" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           sync-c="true"
+           sync-j="20" />
+           
   <default revision="refs/heads/lineage-23.0"
            remote="github"
            sync-c="true"
