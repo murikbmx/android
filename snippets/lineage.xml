@@ -224,4 +224,7 @@
   <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.0" />
   <project path="packages/apps/FaceUnlock" remote="gitlab" name="murikbmx/android_packages_apps_FaceUnlock" revision="16.0" />
   <project path="packages/apps/ViPER4AndroidFX" remote="github" name="murikbmx/android_packages_apps_ViPER4AndroidFX" revision="v4a" />
+  <project path="device/google/shiba" remote="github" name="LineageOS/android_device_google_shiba" revision="lineage-23.0" />
+  <project path="device/google/shusky-kernels" remote="github" name="LineageOS/android_device_google_shusky-kernels" revision="lineage-23.0" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-23.0" />
 </manifest>
