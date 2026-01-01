@@ -18,6 +18,11 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           sync-c="true"
+           sync-j="20" />
+  
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
