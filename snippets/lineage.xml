@@ -210,4 +210,15 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+
+  <!-- Pixel 8 - 7a -->
+  <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-23.1" clone-depth="1" />
+  <project path="vendor/google/lynx" remote="github" name="TheMuppets/proprietary_vendor_google_lynx" revision="lineage-23.1" clone-depth="1" />
+  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-23.1" />
+  <project path="device/google/lynx" remote="github" name="murikbmx/android_device_google_lynx" revision="lineage-23.1" />
+  <project path="device/google/gs201" remote="github" name="murikbmx/android_device_google_gs201" revision="lineage-23.1" />
+  <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-23.1" />
+  <project path="device/google/shiba" remote="github" name="LineageOS/android_device_google_shiba" revision="lineage-23.1" />
+  <project path="device/google/shusky-kernels" remote="github" name="LineageOS/android_device_google_shusky-kernels" revision="lineage-23.1" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-23.1" />
 </manifest>
