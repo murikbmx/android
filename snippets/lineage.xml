@@ -228,5 +228,5 @@
   <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-23.2" clone-depth="1" />
 
   <!-- Google Camera -->
-  <project path="vendor/google/camera" name="crdroidandroid/proprietary_vendor_google_camera" remote="crdroidandroid-gitlab" revision="16.0" />
+  <project path="vendor/google/camera" name="crdroidandroid/proprietary_vendor_google_camera" remote="crdroidandroid-gitlab" />
 </manifest>
