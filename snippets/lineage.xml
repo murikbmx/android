@@ -226,4 +226,7 @@
   <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-23.2" />
   <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-23.2" />
   <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-23.2" clone-depth="1" />
+
+  <!-- Google Camera -->
+  <project path="vendor/google/camera" name="crdroidandroid/proprietary_vendor_google_camera" remote="https://gitlab.com/" revision="16.0" />
 </manifest>
