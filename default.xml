@@ -13,10 +13,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-16.0.0_r4" />
 
-  <remote  name="gitlab"
+  <remote  name="crdroidandroid-gitlab"
            fetch="https://gitlab.com"
            sync-c="true"
-           sync-j="4" />
+           sync-j="4"
+           revision="refs/heads/16.0" />
   
   <default revision="refs/heads/lineage-23.2"
            remote="github"
