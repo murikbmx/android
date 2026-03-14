@@ -229,4 +229,6 @@
 
   <!-- Google Camera -->
   <project path="vendor/google/camera" name="crdroidandroid/proprietary_vendor_google_camera" remote="crdroidandroid-gitlab" />
+  <!-- microG Mobile Services -->
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
 </manifest>
