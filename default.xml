@@ -15,11 +15,6 @@
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
-
-  <default revision="refs/heads/16.0"
-           remote="gitlab"
-           sync-c="true"
-           sync-j="4" />
   
   <default revision="refs/heads/lineage-23.2"
            remote="github"
