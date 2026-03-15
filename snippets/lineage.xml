@@ -228,10 +228,10 @@
   <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-23.2" clone-depth="1" />
 
   <!-- Google Camera -->
-  <project path="vendor/google/camera" name="crdroidandroid/proprietary_vendor_google_camera" />
+  <project path="vendor/google/camera" name="crdroidandroid/proprietary_vendor_google_camera" remote="gitlab" revision="refs/heads/16.0" sync-c="true" />
   <!-- microG Mobile Services -->
    <!-- <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" /> -->
 
   <!-- Face Unlock -->
-  <project path="packages/apps/FaceUnlock" name="murikbmx/android_packages_apps_FaceUnlock" />
+  <project path="packages/apps/FaceUnlock" name="murikbmx/android_packages_apps_FaceUnlock" remote="gitlab" revision="refs/heads/16.0" sync-c="true" />
 </manifest>
