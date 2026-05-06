@@ -234,4 +234,7 @@
 
   <!-- Face Unlock -->
   <project path="packages/apps/FaceUnlock" name="murikbmx/android_packages_apps_FaceUnlock" remote="gitlab" revision="refs/heads/16.0" sync-c="true" />
+  
+  <!-- Basic Call Recorder -->
+  <project path="vendor/bcr" remote="github" name="crdroidandroid/android_vendor_bcr" revision="16.0" />
 </manifest>
