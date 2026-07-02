@@ -237,4 +237,6 @@
   
   <!-- Basic Call Recorder -->
   <project path="vendor/bcr" remote="github" name="murikbmx/android_vendor_bcr" revision="16.0" />
+  
+  <project path="vendor/google/faceunlock" remote="gitlab" name="crdroidandroid/proprietary_vendor_google_faceunlock" revision="refs/heads/16.0" />
 </manifest>
