@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="murikbmx/android" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
@@ -58,7 +58,7 @@
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/apn" name="LineageOS/android_vendor_apn" revision="main" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="murikbmx/android_vendor_lineage" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -222,4 +222,38 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  
+  <!-- Pixel 8 -->
+  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-23.2" />
+  <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-23.2" />
+  <project path="vendor/google/shiba" remote="github" name="murikbmx/proprietary_vendor_google_shiba" revision="lineage-23.2" clone-depth="1" />
+
+  <!-- Xiaomi Pad 5 -->
+  <project path="device/xiaomi/nabu" remote="github" name="murikbmx/android_device_xiaomi_nabu" revision="lineage-23.2" />
+  <project path="kernel/xiaomi/nabu" remote="github" name="crdroidandroid/android_kernel_xiaomi_sm8150" revision="16.0" />
+  <project path="vendor/xiaomi/nabu" remote="gitlab" name="dev-harsh1998/android_vendor_xiaomi_nabu" revision="refs/heads/lineage-23.0" />
+  <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.2" />
+  
+  <!-- Samsung A52 4G -->
+  <project path="device/samsung/a52q" remote="github" name="murikbmx/android_device_samsung_a52q" revision="lineage-23.2" />
+  <project path="device/samsung/sm7125-common" remote="github" name="LineageOS/android_device_samsung_sm7125-common" revision="lineage-23.2" />
+  <project path="vendor/samsung/a52q" remote="github" name="murikbmx/proprietary_vendor_samsung_a52q" revision="lineage-23.2" />
+  <project path="vendor/samsung/sm7125-common" remote="github" name="murikbmx/proprietary_vendor_samsung_sm7125-common" revision="lineage-23.2" />  
+  <project path="kernel/samsung/sm7125" remote="github" name="LineageOS/android_kernel_samsung_sm7125" revision="lineage-23.2" />
+  <project path="hardware/samsung" remote="github" name="LineageOS/android_hardware_samsung" revision="lineage-23.2" />
+  
+  <!-- Google Camera -->
+  <!-- <project path="vendor/google/camera" name="murikbmx/proprietary_vendor_google_camera" remote="gitlab" revision="refs/heads/16.0" sync-c="true" /> -->
+  <!-- microG Mobile Services -->
+   <!-- <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" /> -->
+
+  <!-- Face Unlock -->
+  <project path="packages/apps/FaceUnlock" name="murikbmx/android_packages_apps_FaceUnlock" remote="gitlab" revision="refs/heads/16.0" sync-c="true" />
+  <project path="vendor/google/faceunlock" remote="gitlab" name="crdroidandroid/proprietary_vendor_google_faceunlock" revision="refs/heads/16.0" />
+  
+  <!-- Basic Call Recorder -->
+  <project path="vendor/bcr" remote="github" name="murikbmx/android_vendor_bcr" revision="16.0" />
+  
+  <!-- MicroG -->
+  <project path="vendor/partner_gms" remote="github" name="murikbmx/android_vendor_partner_gms" revision="master" />
 </manifest>
