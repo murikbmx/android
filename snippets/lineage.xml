@@ -239,4 +239,7 @@
   
   <!-- MicroG -->
   <project path="vendor/partner_gms" remote="github" name="murikbmx/android_vendor_partner_gms" revision="master" />
+  
+  <!-- GCam Photos Preview -->
+  <project path="external/calyx/GCamPhotosPreview" remote="github" name="murikbmx/platform_external_calyx_GCamPhotosPreview" revision="main" />
 </manifest>
