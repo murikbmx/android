@@ -225,6 +225,9 @@
   <!-- Basic Call Recorder -->
   <project path="vendor/bcr" remote="github" name="murikbmx/android_vendor_bcr" revision="17.0" />
   
+  <!-- GboardWu -->
+  <project path="vendor/gboard" remote="github" name="murikbmx/gboard" revision="main" />
+  
   <!-- MicroG -->
   <project path="vendor/partner_gms" remote="github" name="murikbmx/android_vendor_partner_gms" revision="master" />
   
