@@ -209,7 +209,7 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
   
   <!-- Pixel 8 -->
-  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-24.0" />
+  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="gmscompat" />
   <project path="device/google/zuma" remote="github" name="murikbmx/android_device_google_zuma" revision="lineage-24.0" />
   <project path="vendor/google/shiba" remote="github" name="murikbmx/proprietary_vendor_google_shiba" revision="lineage-24.0" clone-depth="1" />
   
