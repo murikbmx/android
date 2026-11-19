@@ -1106,10 +1106,9 @@
   </project>
 
   <include name="snippets/lineage.xml" />
-  <!-- gmscompat port: GrapheneOS apps. GmsCompat/GmsCompatConfig pinned: GmsCompat 10f829b+
-       needs LocationRequest.Builder.setCoarse(), not ported to frameworks/base yet. -->
+  <!-- gmscompat port: GrapheneOS apps -->
   <remote name="grapheneos" fetch="https://github.com/GrapheneOS" />
-  <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" revision="9a1e188647e25d2363d63e3dc07ec71722d1b019" upstream="17" dest-branch="17" />
-  <project path="external/GmsCompatConfig" name="platform_external_GmsCompatConfig" remote="grapheneos" revision="774bc68a3a6e949153cd70c457d273466a2e7106" upstream="17" dest-branch="17" />
+  <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" revision="refs/heads/17" />
+  <project path="external/GmsCompatConfig" name="platform_external_GmsCompatConfig" remote="grapheneos" revision="refs/heads/17" />
   <project path="packages/apps/AppCompatConfig" name="platform_packages_apps_AppCompatConfig" remote="grapheneos" revision="refs/heads/17" />
 </manifest>
